@@ -1,0 +1,70 @@
+*
+{
+	padding:0;
+	margin:auto;
+	border:0;
+}
+header
+{
+	height:50px;
+	margin:auto;
+	display:flex;
+}
+header h1
+{
+	color:#219165;
+}
+.calculator
+{
+	border:2px solid black;
+	border-radius:10px;
+	height:350px;
+	width:70%;
+	margin:auto;
+	background-color:#8d8e8f;
+}
+.displayclass
+{
+	border:1px solid black;
+	border-radius:10px;
+	width:98%;
+	height:100px;
+	background-color:white;
+	margin-top:2px;
+}
+input[type = button]
+{
+	width:20%;
+	border-radius:5px;
+	height:40px;
+	box-shadow:3px 3px black;
+	background-color:black
+	color:white;
+}
+.first_level, .second_level, .third_level, .fourth_level, .fifth_level
+{
+	margin:auto;
+	margin-bottom:5px;
+	display:flex;
+}
+.buttons
+{
+	margin-top:10px;
+	//display:flex;
+}
+.operators
+{
+	color:green;
+}
+@media only screen and (min-width:450px)
+{
+	.calculator
+	{
+		border:2px solid black;
+		border-radius:10px;
+		height:350px;
+		width:30%;
+		margin:auto;
+		background-color:#8d8e8f;
+	}
+}
